@@ -12,9 +12,11 @@ const onRequest = (request, response) => {
     case '/':
       htmlHandler.getIndex(request, response);
       break;
+    case '/client2.html':
     case '/page2':
       htmlHandler.getClient2(request, response);
       break;
+    case '/client3.html':
     case '/page3':
       htmlHandler.getClient3(request, response);
       break;
